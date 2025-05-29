@@ -1,0 +1,35 @@
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--color-white);
+    min-height: 85vh;
+}
+
+.hero__content {
+    display: flex;
+    flex-direction: column;
+    gap: var(--gap-xlarge);
+    padding: 0 var(--padding-small);
+    max-width: 1028px;
+}
+
+.hero__text {
+    display: flex;
+    flex-direction: column;
+    color: var(--color-black);
+    gap: var(--gap-large);
+    max-width: 720px;
+}
+
+.hero__text__p {
+    font-size: var(--body-large);
+    line-height: 28px;
+}
+
+.hero__cta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--gap-medium);
+    max-width: 720px;
+}

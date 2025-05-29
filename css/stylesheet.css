@@ -1,0 +1,99 @@
+@import url('reset.css');
+@import url('variables.css');
+@import url('components/sections/header.css');
+@import url('components/sections/footer.css');
+@import url('components/buttons/buttons.css');
+
+/* Global styling */
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+        'skip2main'
+        'main'
+        'footer';
+    padding-right: 10vw;
+}
+
+main {
+    grid-area: main;
+}
+
+h1,
+h2,
+h3 {
+    font-family: var(--font-heading);
+}
+
+h1 {
+    font-size: var(--heading-medium);
+    font-weight: var(--font-weight-bold);
+}
+
+h2 {
+    font-size: var(--heading-small);
+    font-weight: var(--font-weight-bold);
+}
+
+h3 {
+    font-size: var(--heading-xsmall);
+    font-weight: var(--font-weight-semibold);
+}
+
+p,
+a,
+label,
+input,
+li,
+textarea {
+    font-family: var(--font-body);
+    font-size: var(--body-small);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.current {
+    text-decoration-line: underline;
+    text-decoration-thickness: 0.11em;
+    text-decoration-color: rgb(254, 254, 254, 1);
+}
+
+/* Accessibility */
+.sr-only {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    border: 0;
+    color: #fff;
+    background-color: #000;
+}
+
+.skip2main {
+    grid-area: skip2main;
+}
+
+.skip2main:focus {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    width: auto;
+    height: auto;
+    padding: 1rem;
+    background-color: #000;
+    color: #fff;
+    z-index: 100;
+    clip: auto;
+}

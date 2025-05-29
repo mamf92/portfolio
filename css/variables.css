@@ -1,0 +1,116 @@
+:root {
+    /* Colors */
+    --color-black: #0D0D0D;
+    --color-darkgrey: #262626;
+    --color-grey: #595959;
+    --color-lightgrey: #8c8c8c;
+    --color-xlightgrey: #A6A6A6;
+    --color-white: #FFFFFF;
+    --color-funred: #D91A60;
+    --color-funpink: #F2137B;
+    --color-funpurple: #B532D9;
+    --color-funyellow: #FFBD00;
+    --color-funteal: #49F2E1;
+    --color-white-transparent: #FFFFFFDD;
+    --color-black-transparent: #0D0D0DDD;
+
+    /* Font families */
+    --font-heading: 'Lexend Deca', 'Arial Narrow Bold', sans-serif;
+    --font-body: 'Quicksand', 'Gill Sans', sans-serif;
+
+    /* Font weights */
+    --font-weight-normal: 400;
+    --font-weight-bold: 700;
+    --font-weight-semibold: 600;
+
+    /* Text sizing */
+    --heading-xxlarge: 3.5em;
+    /* 56px */
+    --heading-xlarge: 3em
+        /*48px*/
+    ;
+    --heading-large: 2.5em
+        /*40px*/
+    ;
+    --heading-medium: 2.25em
+        /*36px*/
+    ;
+    --heading-small: 1.88em
+        /*30px*/
+    ;
+    --heading-xsmall: 1.5em
+        /*24px*/
+    ;
+    --heading-xxsmall: 1.25em
+        /*20px*/
+    ;
+
+    --body-large: 1.13em
+        /*18px*/
+    ;
+    --body-medium: 1em
+        /*16px*/
+    ;
+    --body-small: 0.88em
+        /*14px*/
+    ;
+    --body-xsmall: 0.75em
+        /*12px*/
+    ;
+
+    /* Spacing */
+    --padding-xlarge: 2em
+        /*32px*/
+    ;
+    --padding-large: 1.5em
+        /*24px*/
+    ;
+    --padding-medium: 1em
+        /*16px*/
+    ;
+    --padding-sm: 0.75em
+        /*12px*/
+    ;
+    --padding-small: 0.5em
+        /*8px*/
+    ;
+    --padding-xsmall: 0.2em
+        /*3px*/
+    ;
+
+    --margin-large: 2em
+        /*32px*/
+    ;
+    --margin-medium: 1em
+        /*16px*/
+    ;
+    --margin-small: 0.5em
+        /*8px*/
+    ;
+    --margin-xsmall: 0.2em
+        /*3.2px*/
+    ;
+
+    --gap-xlarge: 3em
+        /*48px*/
+    ;
+    --gap-large: 1.5em
+        /*24px*/
+    ;
+    --gap-medium: 1em
+        /*16px*/
+    ;
+    --gap-small: 0.5em
+        /*8px*/
+    ;
+    --gap-xsmall: 0.25em
+        /*4px*/
+    ;
+    --gap-xxsmall: 0.2em
+        /*3px*/
+    ;
+
+    /* Section deviders */
+    --devider-color: black;
+    --devider-spacing: 2em;
+}
