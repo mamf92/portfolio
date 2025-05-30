@@ -6,12 +6,6 @@
 
 main {
     min-width: 90vw;
-    scroll-snap-type: y proximity;
-}
-
-main>section {
-    scroll-snap-align: start;
-    scroll-snap-stop: always;
 }
 
 .hide::-webkit-scrollbar {
@@ -46,6 +40,7 @@ main>section {
     padding: 0 var(--padding-small);
     min-height: 100vh;
     margin-top: var(--margin-medium);
+    justify-content: center;
 
 }
 
@@ -180,4 +175,10 @@ main>section {
     font-family: "Font Awesome 6 Free";
     font-weight: 900;
     font-size: 3rem;
+}
+
+.linkedin-icon.linkedin-icon--pink,
+.github-icon.github-icon--pink,
+.email-icon.email-icon--pink {
+    color: var(--color-funpink);
 }

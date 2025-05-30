@@ -18,6 +18,7 @@ body {
         'main'
         'footer';
     padding-right: 10vw;
+    min-height: 100vh;
 }
 
 main {
