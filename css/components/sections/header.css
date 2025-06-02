@@ -48,10 +48,20 @@ header a:hover {
 
 /* Media queries */
 /* Tablet 768px */
-@media (min-width: 768px) {}
+@media (min-width: 768px) {
+    .logo--image {
+        max-width: 5rem;
+    }
+}
 
 /* Laptop 1024px */
-@media (min-width: 1024px) {}
+@media (min-width: 1024px) {
+    header a.material-symbols-rounded {
+
+        font-size: var(--heading-xlarge);
+
+    }
+}
 
 /* Desktop 1440px */
 @media (min-width: 1440px) {}

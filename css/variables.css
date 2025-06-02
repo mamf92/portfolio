@@ -59,6 +59,9 @@
     ;
 
     /* Spacing */
+    --padding-xxlarge: 2.5em
+        /*40px*/
+    ;
     --padding-xlarge: 2em
         /*32px*/
     ;

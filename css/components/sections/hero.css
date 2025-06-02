@@ -3,7 +3,6 @@
     justify-content: center;
     align-items: center;
     color: var(--color-white);
-    min-height: 85vh;
 }
 
 .hero__content {
