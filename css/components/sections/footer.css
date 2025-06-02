@@ -1,6 +1,7 @@
 .footer {
     display: grid;
     width: 100%;
+    max-width: 1024px;
     padding: var(--padding-large) var(--padding-small);
     grid-template-rows: repeat(4, auto);
     grid-template-areas:
@@ -11,6 +12,7 @@
     background-color: var(--color-white);
     color: var(--color-white);
     grid-area: footer;
+    justify-self: center;
 }
 
 .follow {
