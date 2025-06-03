@@ -62,10 +62,10 @@ img {
     display: block;
 }
 
-.current {
+a.current {
     text-decoration-line: underline;
-    text-decoration-thickness: 0.11em;
-    text-decoration-color: rgb(254, 254, 254, 1);
+    text-decoration-thickness: 0.15rem;
+    text-decoration-color: rgb(0, 0, 0, 1);
 }
 
 /* Accessibility */

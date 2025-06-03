@@ -32,17 +32,17 @@ header {
     margin-top: var(--margin-medium);
 }
 
-header a.material-symbols-rounded {
+.nav a {
     color: var(--color-black);
     font-size: var(--heading-medium);
     text-decoration-line: underline;
-    text-decoration-thickness: 0.11em;
+    text-decoration-thickness: 0.15rem;
     text-decoration-color: rgba(254, 254, 254, 0);
-    transition: text-decoration-color 1s;
+    transition: text-decoration-color 600ms;
 }
 
-header a:hover {
-    text-decoration-color: rgba(254, 254, 254, 1);
+nav a:hover {
+    text-decoration-color: rgba(0, 0, 0, 1);
 }
 
 
