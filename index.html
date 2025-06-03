@@ -9,7 +9,7 @@
     <meta name="keyword"
         content="MF, Martin Fischer, portfolio, web developer, software engineer, projects, about me, contact">
     <meta name="author" content="Martin Fischer">
-    <title>Portfolio - Martin Fischer - MF</title>
+    <title>Portfolio - Martin Fischer</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
@@ -31,21 +31,24 @@
     <a href="#main-content" class="skip2main sr-only">Skip to main content</a>
     <header>
         <a href="index.html#about" class="header__logo-container">
-            <img src="assets/MF logo.webp" alt="mf logo" class="logo--image">
+            <img src="assets/mf-logo.webp" alt="Martin Fischer personal brand logo featuring stylized MF letters"
+                class="logo--image">
         </a>
-        <nav class="nav">
-            <a href="index.html#about" class="material-symbols-rounded current">person</a>
-            <a href="index.html#projects" class="material-symbols-rounded">school</a>
-            <a href="index.html#passion-project" class="material-symbols-rounded">celebration</a>
-            <a href="index.html#contact" class="material-symbols-rounded">mail</a>
-            <a href="index.html#more-about" class="material-symbols-rounded">history</a>
+        <nav class="nav" aria-label="Main navigation">
+            <a href="index.html#about" class="material-symbols-rounded current" aria-label="About me">person</a>
+            <a href="index.html#projects" class="material-symbols-rounded" aria-label="My projects">school</a>
+            <a href="index.html#passion-project" class="material-symbols-rounded"
+                aria-label="Passion project">celebration</a>
+            <a href="index.html#contact" class="material-symbols-rounded" aria-label="Contact me">mail</a>
+            <a href="index.html#more-about" class="material-symbols-rounded"
+                aria-label="Experience and skills">history</a>
         </nav>
     </header>
     <main class="" id="main-content">
-        <section class="hero" id="about">
+        <section class="hero" id="about" aria-labelledby="about-heading">
             <div class="hero__content">
                 <div class="hero__text">
-                    <h1>Martin Fischer</h1>
+                    <h1 id="about-heading">Martin Fischer</h1>
                     <p class="hero__text__p">I'm a frontend developer based in Norway but open to explore the world. I
                         am currently transitioning from a background in teaching to the exciting world of development. I
                         bring strong communication skills, a user-focused mindset, and a passion for clean, accessible
@@ -57,27 +60,30 @@
                 </div>
             </div>
         </section>
-        <section class="projects" id="projects">
+        <section class="projects" id="projects" aria-labelledby="projects-heading">
             <div class="section__header">
-                <h2 class="projects__heading">Projects</h2>
+                <h2 class="projects__heading" id="projects-heading">Projects</h2>
             </div>
             <div class="project-cards">
                 <article class="card-s">
-                    <div class="card-s__image"><img src="assets/images/escnews.png" alt="ESC News website banner">
+                    <div class="card-s__image"><img src="assets/images/escnews.png" alt="Screenshot of ESC News
+                            website with a navigation bar and a carousel of the latest news articles.">
                     </div>
                     <div class="card-s__content">
                         <div class="card-s__text">
+                            <h4 class="sr-only">Technologies used in this project</h4>
                             <div class="card-s__tech">
                                 <span class="tech-icon">
-                                    <img src="assets/icons/html5.svg" alt="HTML" class="icon html-icon">
+                                    <img src="assets/icons/html5.svg" alt="" aria-hidden="true" class="icon html-icon">
                                     <span class="sr-only">HTML</span>
                                 </span>
                                 <span class="tech-icon">
-                                    <img src="assets/icons/css.svg" alt="CSS" class="icon css-icon">
+                                    <img src="assets/icons/css.svg" alt="" aria-hidden="true" class="icon css-icon">
                                     <span class="sr-only">CSS</span>
                                 </span>
                                 <span class="tech-icon">
-                                    <img src="assets/icons/javascript.svg" alt="JavaScript" class="icon js-icon">
+                                    <img src="assets/icons/javascript.svg" alt="" aria-hidden="true"
+                                        class="icon js-icon">
                                     <span class="sr-only">JavaScript</span>
                                 </span>
                             </div>
@@ -85,25 +91,29 @@
                             <p class="card-s__description">News page with the lates in Eurovision news.
                                 Admin registration and login to post and edit news. View and share posts you enjoy!</p>
                         </div>
-                        <a href="https://mamf92.github.io/escnews/" class="button primary medium pink"
-                            aria-label="Visit the ESC News website">Visit deployed website</a>
+                        <a href="https://mamf92.github.io/escnews/" class="button primary medium pink">Visit ESC
+                            News</a>
+                    </div>
                 </article>
                 <article class="card-s">
                     <div class="card-s__image"><img src="assets/images/rainydaysv2.png"
-                            alt="Rainydays v2 website banner"></div>
+                            alt="Screenshot of RainyDays e-commerce website showing a navbar, the moto 'Pushing the Comfort Zone', and call-to-action buttons for men's and women's clothes.">
+                    </div>
                     <div class="card-s__content">
                         <div class="card-s__text">
+                            <h4 class="sr-only">Technologies used in this project</h4>
                             <div class="card-s__tech">
                                 <span class="tech-icon">
-                                    <img src="assets/icons/html5.svg" alt="HTML" class="icon html-icon">
+                                    <img src="assets/icons/html5.svg" alt="" aria-hidden="true" class="icon html-icon">
                                     <span class="sr-only">HTML</span>
                                 </span>
                                 <span class="tech-icon">
-                                    <img src="assets/icons/css.svg" alt="CSS" class="icon css-icon">
+                                    <img src="assets/icons/css.svg" alt="" aria-hidden="true" class="icon css-icon">
                                     <span class="sr-only">CSS</span>
                                 </span>
                                 <span class="tech-icon">
-                                    <img src="assets/icons/javascript.svg" alt="JavaScript" class="icon js-icon">
+                                    <img src="assets/icons/javascript.svg" alt="" aria-hidden="true"
+                                        class="icon js-icon">
                                     <span class="sr-only">JavaScript</span>
                                 </span>
                             </div>
@@ -112,26 +122,29 @@
                                 and clean
                                 webdesign.</p>
                         </div>
-                        <a href="https://mamf92.github.io/rainydays-v2/" class="button primary medium pink"
-                            aria-label="Visit RainyDays v2 website.">Visit deployed website</a>
+                        <a href="https://mamf92.github.io/rainydays-v2/" class="button primary medium pink">Visit
+                            RainyDays v2</a>
                     </div>
                 </article>
                 <article class="card-s">
                     <div class="card-s__image"><img src="assets/images/communitysciencemuseum.png"
-                            alt="The Community Science Museum website"></div>
+                            alt="Screenshot of Community Science Museuem website featuring a navigation bar and call-to-action buttons for parents and children.">
+                    </div>
                     <div class="card-s__content">
                         <div class="card-s__text">
+                            <h4 class="sr-only">Technologies used in this project</h4>
                             <div class="card-s__tech">
                                 <span class="tech-icon">
-                                    <img src="assets/icons/html5.svg" alt="HTML" class="icon html-icon">
+                                    <img src="assets/icons/html5.svg" alt="" aria-hidden="true" class="icon html-icon">
                                     <span class="sr-only">HTML</span>
                                 </span>
                                 <span class="tech-icon">
-                                    <img src="assets/icons/css.svg" alt="CSS" class="icon css-icon">
+                                    <img src="assets/icons/css.svg" alt="" aria-hidden="true" class="icon css-icon">
                                     <span class="sr-only">CSS</span>
                                 </span>
                                 <span class="tech-icon">
-                                    <img src="assets/icons/javascript.svg" alt="JavaScript" class="icon js-icon">
+                                    <img src="assets/icons/javascript.svg" alt="" aria-hidden="true"
+                                        class="icon js-icon">
                                     <span class="sr-only">JavaScript</span>
                                 </span>
                             </div>
@@ -139,38 +152,39 @@
                             <p class="card-s__description">Information website catering to parents planing a visit, and
                                 inspiring children.</p>
                         </div>
-                        <a href="https://mamf92.github.io/semester-project-1/" class="button primary medium pink"
-                            aria-label="Visit RainyDays v2 website.">Visit deployed website</a>
+                        <a href="https://mamf92.github.io/semester-project-1/" class="button primary medium pink">Visit
+                            Science Museum</a>
                     </div>
                 </article>
             </div>
         </section>
-        <section class="passion-project" id="passion-project">
+        <section class="passion-project" id="passion-project" aria-labelledby="passion-project-heading">
             <div class="section__header">
-                <h2 class="passion-project__heading">Passion project</h2>
+                <h2 class="passion-project__heading" id="passion-project-heading">Passion project</h2>
             </div>
             <div class="passion-product-cards">
                 <article class="card-l">
                     <div class="card-l__image--right"><img src="assets/images/escparty.png"
-                            alt="Mobile webpage of ESC Party">
+                            alt="ESC Party app interface displaying three main options: multiplayer quiz, single-player quiz, and create quiz functionality.">
                     </div>
                     <div class="card-l__content--left">
                         <div class="card-l__text">
                             <div class="card-l__tech">
+                                <h4 class="sr-only">Technologies used in this project</h4>
                                 <span class="tech-icon">
-                                    <img src="assets/icons/html5.svg" alt="HTML" class="icon html-icon">
+                                    <img src="assets/icons/html5.svg" alt="" aria-hidden="true" class="icon html-icon">
                                     <span class="sr-only">HTML</span>
                                 </span>
                                 <span class="tech-icon">
-                                    <img src="assets/icons/css.svg" alt="CSS" class="icon css-icon">
+                                    <img src="assets/icons/css.svg" alt="" aria-hidden="true" class="icon css-icon">
                                     <span class="sr-only">CSS</span>
                                 </span>
                                 <span class="tech-icon">
-                                    <img src="assets/icons/react.svg" alt="React" class="icon react-icon">
+                                    <img src="assets/icons/react.svg" alt="" aria-hidden="true" class="icon react-icon">
                                     <span class="sr-only">React</span>
                                 </span>
                                 <span class="tech-icon">
-                                    <img src="assets/icons/typescript.svg" alt="TypeScript"
+                                    <img src="assets/icons/typescript.svg" alt="" aria-hidden="true"
                                         class="icon typescript-icon">
                                     <span class="sr-only">TypeScript</span>
                                 </span>
@@ -182,28 +196,26 @@
                                 process.</p>
                         </div>
                         <div class="card-l__cta">
-                            <a href="https://mamf92.github.io/escparty/" class="card-l__cta button primary small pink"
-                                aria-label="Visit deployed ESC Party page">Visit deployed
-                                page</a>
+                            <a href="https://mamf92.github.io/escparty/"
+                                class="card-l__cta button primary small pink">Visit ESC Party</a>
                             <a href="https://github.com/mamf92/escparty"
-                                class="card-l__cta button primary small pink">Check
-                                the code</a>
+                                class="card-l__cta button primary small pink">Check the code</a>
                         </div>
                     </div>
                 </article>
             </div>
         </section>
-        <section class="contact-section" id="contact">
+        <section class="contact-section" id="contact" aria-labelledby="contact-heading">
             <div class="section__header">
-                <h2 class="passion-project__heading">Get in touch</h2>
+                <h2 class="contact__heading" id="contact-heading">Get in touch</h2>
             </div>
             <div class="contact-cards">
                 <article class="card-l">
-                    <div class="card-l__image"><img src="assets/images/profil-picture.jpg" alt="Martin Fischer's profile
-                        picture">
+                    <div class="card-l__image"><img src="assets/images/profil-picture.jpg"
+                            alt="Martin Fischer smiling, with a neutral background.">
                     </div>
                     <div class="card-l__content">
-                        <div class="card-l__cta">
+                        <address class="card-l__cta">
                             <a href="https://www.linkedin.com/in/mamf92/" target="_blank"
                                 class="tech-icon linkedin-icon linkedin-icon--pink">
                                 <span class="sr-only">Go to my LinkedIn</span>
@@ -213,10 +225,10 @@
                                 <span class="sr-only">Go to my Github</span>
                             </a>
                             <a href="mailto:mamfischer92@gmail.com" target="_blank"
-                                class=" tech-icon email-icon email-icon--pink">
+                                class="tech-icon email-icon email-icon--pink">
                                 <span class="sr-only">Email me</span>
                             </a>
-                        </div>
+                        </address>
                         <div class="card-l__text">
                             <h3 class="card-l__heading">A coffee with opportunities?</h3>
                             <p class="card-l__description">Get in touch through LinkedIn, check out my work on GitHub,
@@ -228,10 +240,10 @@
 
             </div>
         </section>
-        <section class="hero more-about" id="more-about">
+        <section class="hero more-about" id="more-about" aria-labelledby="more-about-heading">
             <div class="hero__content">
                 <div class="hero__text">
-                    <h2>Experience</h2>
+                    <h2 id="more-about-heading">Experience</h2>
                     <p class="hero__text__p">After years in the classroom, I decided to pursue my long-standing interest
                         in technology.
                         Today, I
@@ -249,8 +261,9 @@
                 </div>
                 <div class="hero__cta">
                     <a href="https://github.com/mamf92" target="_blank" class="button primary pink">Check my GitHub</a>
-                    <a href="assets/cv/Martin Fischer Frontend Developer CV - Projects and Skills.pdf"
-                        class="button primary pink arrow-down" download>Download CV</a>
+                    <a href="assets/cv/Martin-Fischer-Frontend-Developer-CV-Projects-and-Skills.pdf"
+                        class="button primary pink arrow-down" aria-label="Download my CV in PDF format"
+                        download>Download CV</a>
                 </div>
             </div>
         </section>
@@ -259,31 +272,34 @@
     <footer class="footer">
         <div class="follow">
             <div class="some">
-                <p class="footer-heading">Get in touch</p>
+                <h3 class="footer-heading">Get in touch</h3>
                 <div class="some__links">
-                    <a href="https://www.linkedin.com/in/mamf92/" aria-label="Go to my LinkedIn page"><i
-                            class="fa-brands fa-linkedin-in"></i></a>
-                    <a href="https://github.com/mamf92" aria-label="Go to my GitHub page"><i
-                            class="fa-brands fa-github"></i></a>
-                    <a href="mailto:mamfischer92@gmail.com" target="_blank">
-                        <i class="fa-solid fa-envelope"></i>
+                    <a href="https://www.linkedin.com/in/mamf92/" aria-label="Go to my LinkedIn page."><i
+                            class="fa-brands fa-linkedin-in" aria-hidden="true"></i></a>
+                    <a href="https://github.com/mamf92" aria-label="Go to my GitHub page."><i
+                            class="fa-brands fa-github" aria-hidden="true"></i></a>
+                    <a href="mailto:mamfischer92@gmail.com" target="_blank" aria-label="Send me an email.">
+                        <i class="fa-solid fa-envelope" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
         </div>
 
         <div class="links">
-            <div class="links__visit">
+            <div class="links__goto">
+                <h3 class="sr-only">Navigate to</h3>
                 <a href="index.html#main-content" class="footer-heading">Top of page</a>
                 <a href="index.html#projects">Projects</a>
-                <a href="index.html#passion-project">Passions Project</a>
+                <a href="index.html#passion-project">Passion Project</a>
                 <a href="index.html#contact">Contact info</a>
             </div>
-            <div class="links__involved">
-                <a href="index.html#projects" class="footer-heading">Projects</a>
-                <a href="https://mamf92.github.io/escnews/">ESC News</a>
-                <a href="https://mamf92.github.io/escparty/">ESC Party</a>
-                <a href="https://mamf92.github.io/semester-project-1/">Community Museum</a>
+            <div class="links__projects">
+                <h3 class="sr-only">Projects</h3>
+                <a href="index.html#projects" class="footer-heading" aria-label="Go to projects section.">Projects</a>
+                <a href="https://mamf92.github.io/escnews/" aria-label="Visit ESC News website.">ESC News</a>
+                <a href="https://mamf92.github.io/escparty/" aria-label="Visit ESC Party website.">ESC Party</a>
+                <a href="https://mamf92.github.io/semester-project-1/"
+                    aria-label="Go to Community Science Museum website.">Community Museum</a>
             </div>
         </div>
         <div class="copyright">

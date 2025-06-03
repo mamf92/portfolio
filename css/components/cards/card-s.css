@@ -76,7 +76,7 @@
     }
 }
 
-@media (min-width: 768px) {
+@media (min-width: 950px) {
     .card-s {
         max-width: calc(33.33% - 0.5rem);
     }

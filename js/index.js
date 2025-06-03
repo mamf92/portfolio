@@ -7,14 +7,10 @@ function setupScroll() {
     const observer = new IntersectionObserver((sections) => {
         sections.forEach(section => {
             if (section.isIntersecting && section.intersectionRatio > 0.2) {
-
-
                 const newIndex = Array.from(allSections).indexOf(section.target);
-
                 if (newIndex !== currentIndex) {
                     updateNavItem(newIndex);
                     currentIndex = newIndex;
-
                 }
             }
         });

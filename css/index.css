@@ -49,7 +49,7 @@ main {
 
 .projects__heading,
 .passion-project__heading,
-.education-cta {
+.contact__heading {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,16 +64,20 @@ main {
     display: flex;
     flex-wrap: wrap;
     margin-top: var(--margin-medium);
-    gap: var(--gap-small);
+    gap: var(--gap-medium);
     justify-content: center;
     background-color: var(--color-white);
 }
 
 /* Media queries */
-/* Tablet 768px */
-@media (min-width: 768px) {
-    .section__header {
-        max-width: 736px;
+/* Mobile 400px */
+@media (min-width: 600px) {
+
+    .project-cards,
+    .education-cards,
+    .passion-product-cards,
+    .contact-cards {
+        gap: var(--gap-small);
     }
 }
 

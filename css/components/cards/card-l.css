@@ -32,6 +32,7 @@
     display: flex;
     gap: var(--gap-medium);
     justify-content: center;
+    font-style: normal;
 }
 
 .card-l__cta a,
