@@ -24,7 +24,7 @@
 .card-s__content {
     display: flex;
     flex-direction: column;
-    gap: var(--gap-large);
+    gap: var(--gap-small);
     padding: var(--padding-medium)
 }
 
@@ -79,5 +79,9 @@
 @media (min-width: 950px) {
     .card-s {
         max-width: calc(33.33% - 0.5rem);
+    }
+
+    .card-s__text {
+        min-height: 9rem;
     }
 }

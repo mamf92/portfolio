@@ -27,14 +27,14 @@
 
 /* Secondary Button */
 .button.secondary {
-    background-color: var(--color-funpurple);
+    background-color: var(--color-pink);
     color: var(--color-white);
-    border: 1px solid var(--color-funpurple);
+    border: 1px solid var(--color-pink);
 }
 
 .button.secondary:hover {
-    background-color: var(--color-funpurple);
-    border: 1px solid var(--color-funpurple);
+    background-color: var(--color-funpink);
+    border: 1px solid var(--color-funpink);
 }
 
 .button.inactive {

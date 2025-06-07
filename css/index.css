@@ -2,8 +2,6 @@
 @import url('components/cards/card-s.css');
 @import url('components/cards/card-l.css');
 
-
-
 main {
     min-width: 90vw;
 }
