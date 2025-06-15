@@ -15,7 +15,6 @@ main {
     scrollbar-width: none;
 }
 
-
 /* All Sections */
 .section__header {
     display: flex;
@@ -82,6 +81,7 @@ main {
 /* Laptop 1024px */
 @media (min-width: 1024px) {
     main {
+        display: flex;
         flex-direction: column;
         align-items: center;
     }
