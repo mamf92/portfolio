@@ -16,7 +16,7 @@ function setupScroll() {
         });
     }, {
         root: null,
-        threshold: 0.5,
+        threshold: 0.2,
         rootMargin: "0px"
     });
 
