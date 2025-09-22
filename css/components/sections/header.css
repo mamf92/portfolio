@@ -41,6 +41,13 @@ header {
     transition: text-decoration-color 600ms;
 }
 
+.symbols svg {
+        width: 2rem;
+        height: 2rem;
+        display: inline-block;
+        vertical-align: middle;
+    }
+
 nav a:hover {
     text-decoration-color: rgba(0, 0, 0, 1);
 }
@@ -56,12 +63,14 @@ nav a:hover {
 
 /* Laptop 1024px */
 @media (min-width: 1024px) {
-    header a.material-symbols-rounded {
-
-        font-size: var(--heading-xlarge);
-
+    .symbols svg {
+        width: 2rem;
+        height: 2rem;
+        display: inline-block;
+        vertical-align: middle;
     }
 }
+
 
 /* Desktop 1440px */
 @media (min-width: 1440px) {}
